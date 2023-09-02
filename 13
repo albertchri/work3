@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的作品集</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .portfolio-item {
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+
+        .portfolio-item img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>我的作品集</h1>
+    </header>
+    <div class="container">
+        <div class="portfolio-item">
+            <img src="作品1.jpg" alt="作品1">
+            <h2>作品1</h2>
+            <p>这是我的第一个作品的描述。</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="作品2.jpg" alt="作品2">
+            <h2>作品2</h2>
+            <p>这是我的第二个作品的描述。</p>
+        </div>
+        <!-- 添加更多作品项目 -->
+    </div>
+</body>
+</html>
